@@ -7,4 +7,5 @@ Flavia Alvarez
 Suma, Resta, Multiplicacion, Divisio
 
 <h2> Operaciones y Funciones Avanzadas</h2>
+
 Porcentaje, Elevado al cuadrado, Raiz cuadrada, Inverso.
