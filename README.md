@@ -4,7 +4,7 @@
 Flavia Alvarez
 
 <h1>Diseño<h1>
-![Calculadora](https://user-images.githubusercontent.com/72667881/209448919-3a9d6a38-80cd-49dc-a432-9a0d6b4f49ce.jpg)
+[Calculadora](https://user-images.githubusercontent.com/72667881/209448919-3a9d6a38-80cd-49dc-a432-9a0d6b4f49ce.jpg)
  
 <h2> Funcionales y Operaciones</h2>
 Suma, Resta, Multiplicacion, Divisio
