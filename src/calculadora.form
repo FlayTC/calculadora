@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="calculadora">
+  <grid id="27dc6" binding="Calculadora" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="674" height="671"/>
+    </constraints>
+    <properties>
+      <background color="-14605015"/>
+      <foreground color="-1"/>
+      <minimumSize width="310" height="464"/>
+      <opaque value="true"/>
+      <preferredSize width="450" height="600"/>
+    </properties>
+    <border type="none">
+      <font/>
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <grid id="75104" binding="Cabecera" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="10" bottom="0" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="true"/>
+        </constraints>
+        <properties>
+          <background color="-14605015"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d5637" class="javax.swing.JLabel" binding="segundoDisplay">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14605015"/>
+              <enabled value="false"/>
+              <font size="24"/>
+              <foreground color="-1"/>
+              <text value=" "/>
+            </properties>
+          </component>
+          <component id="3cb1f" class="javax.swing.JLabel" binding="display">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14605015"/>
+              <enabled value="false"/>
+              <font size="36"/>
+              <foreground color="-1"/>
+              <text value=" "/>
+            </properties>
+          </component>
+          <vspacer id="78c28">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="5ae0e">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="b7e8a" binding="Botonera" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14605015"/>
+          <enabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="81e74" class="javax.swing.JButton" binding="botonPorcentaje">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13354432"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <iconTextGap value="4"/>
+              <requestFocusEnabled value="true"/>
+              <text value="%"/>
+            </properties>
+          </component>
+          <component id="dad8f" class="javax.swing.JButton" binding="inverso">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13354432"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="1/x"/>
+            </properties>
+          </component>
+          <component id="b686e" class="javax.swing.JButton" binding="numero7">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="7"/>
+            </properties>
+          </component>
+          <component id="1ab26" class="javax.swing.JButton" binding="numero4">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="bfcba" class="javax.swing.JButton" binding="numero1">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="ada3d" class="javax.swing.JButton" binding="botonNegativo">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="±"/>
+            </properties>
+          </component>
+          <component id="4a11b" class="javax.swing.JButton" binding="borraPrimerDisplay">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13354432"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="CE"/>
+            </properties>
+          </component>
+          <component id="48d1d" class="javax.swing.JButton" binding="elevadoAlCuadrardo">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13354432"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="²x"/>
+            </properties>
+          </component>
+          <component id="1d114" class="javax.swing.JButton" binding="numero8">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="52abd" class="javax.swing.JButton" binding="numero5">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="886bc" class="javax.swing.JButton" binding="numero2">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="be091" class="javax.swing.JButton" binding="numero0">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="409c1" class="javax.swing.JButton" binding="botonClean">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13354432"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="C"/>
+            </properties>
+          </component>
+          <component id="def47" class="javax.swing.JButton" binding="botonBorrar">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13354432"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="⌫"/>
+            </properties>
+          </component>
+          <component id="d3e7a" class="javax.swing.JButton" binding="botonDivision">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13354432"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="÷"/>
+            </properties>
+          </component>
+          <component id="97a09" class="javax.swing.JButton" binding="raizCuadrada">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13354432"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="²√x"/>
+            </properties>
+          </component>
+          <component id="9e28f" class="javax.swing.JButton" binding="numero9">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="ae25e" class="javax.swing.JButton" binding="botonMultiplicar">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13354432"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="*"/>
+            </properties>
+          </component>
+          <component id="e3f29" class="javax.swing.JButton" binding="numero6">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="7ff58" class="javax.swing.JButton" binding="botonResta">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13354432"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="dfb6c" class="javax.swing.JButton" binding="numero3">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="e0ad" class="javax.swing.JButton" binding="botonSuma">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13354432"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="+"/>
+            </properties>
+          </component>
+          <component id="7d24d" class="javax.swing.JButton" binding="botonPunto">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11972521"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="."/>
+            </properties>
+          </component>
+          <component id="7df08" class="javax.swing.JButton" binding="botonIgual">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-9669251"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="="/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
